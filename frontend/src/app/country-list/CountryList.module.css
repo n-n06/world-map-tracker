@@ -1,0 +1,28 @@
+.countryLists {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  height: 90vh;
+}
+
+.countryList {
+  margin: 20px 0;
+  background-color: var(--dark-shadow);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.countryList h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.countryList div {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  text-align: center;
+}
