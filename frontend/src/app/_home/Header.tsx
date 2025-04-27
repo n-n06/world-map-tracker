@@ -5,9 +5,9 @@ import styles from './HomePage.module.css';
 import Cookies from 'js-cookie';
 import { logout } from 'app/auth/auth.service';
 
-interface HeaderProps {}
 
-const Header: React.FC<HeaderProps> = ({}) => {
+
+const Header: React.FC<any> = () => {
   return (
     <header className={styles.header}>
       <div className={styles.headerContent}>
